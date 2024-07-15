@@ -1,12 +1,12 @@
 {
-    "boardName":"feather-esp32",
+    "boardName":"ForceTronics-esp32"
     "mcuName":"ESP32",
     "mcuRefVoltage": 3.3,
-    "displayName":"Adafruit Feather HUZZAH ESP32",
+    "displayName":"ForceTronics-ESP32",
     "vendor":"Adafruit",
-    "productURL":"https://www.adafruit.com/product/3405",
-    "documentationURL":"https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
-    "installBoardName": "wippersnapper_feather_esp32",
+    "productURL":"https://www.forcetronics.com/",
+    "documentationURL":"https://www.forcetronics.com/",
+    "installBoardName": "wippersnapper_ForceTronics_esp32",
     "installMethod":"web",
     "esptool": {
       "fileSystemSize": 131072,
@@ -217,7 +217,7 @@
       "i2cPorts": [
         {
             "i2cPortId": 0,
-            "SDA": 23,
+            "SDA": 21,
             "SCL": 22
         }
       ]
