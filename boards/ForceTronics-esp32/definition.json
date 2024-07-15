@@ -1,0 +1,225 @@
+{
+    "boardName":"feather-esp32",
+    "mcuName":"ESP32",
+    "mcuRefVoltage": 3.3,
+    "displayName":"Adafruit Feather HUZZAH ESP32",
+    "vendor":"Adafruit",
+    "productURL":"https://www.adafruit.com/product/3405",
+    "documentationURL":"https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+    "installBoardName": "wippersnapper_feather_esp32",
+    "installMethod":"web",
+    "esptool": {
+      "fileSystemSize": 131072,
+      "blockSize": 4096,
+      "offset": "0x3D0000",
+      "chip": "esp32",
+      "flashMode" : "dio",
+      "flashFreq" : "80m",
+      "flashSize" : "4MB",
+      "structure": {
+          "0x0": "wippersnapper.wippersnapper_feather_esp32.littlefs.VERSION.combined.bin"
+        }
+    },
+    "components": {
+      "digitalPins": [
+       {
+         "name":"D13",
+         "displayName":"D13 (LED BUILT-IN)",
+         "dataType":"bool",
+         "hasPWM":true
+       },
+       {
+         "name":"D12",
+         "displayName":"D12",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D27",
+         "displayName":"D27",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D33",
+         "displayName":"D33",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D15",
+         "displayName":"D15",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D32",
+         "displayName":"D32",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D14",
+         "displayName":"D14",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D26",
+         "displayName":"D26 (A0)",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D25",
+         "displayName":"D25 (A1)",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name":"D34",
+         "displayName":"D34 (A2)",
+         "dataType":"bool"
+       },
+       {
+         "name":"D39",
+         "displayName":"D39 (A3)",
+         "dataType":"bool"
+       },
+       {
+         "name":"D36",
+         "displayName":"D36 (A4)",
+         "dataType":"bool"
+       },
+       {
+         "name":"D4",
+         "displayName":"D4 (A5)",
+         "dataType":"bool",
+         "hasPWM":true,
+         "hasServo":true
+       },
+       {
+         "name": "D16",
+         "displayName": "D16 (UART RX)",
+         "dataType": "bool",
+         "uartRx": true
+       },
+       {
+         "name": "D17",
+         "displayName": "D17 (UART TX)",
+         "dataType": "bool",
+         "uartTx": true
+       }
+      ],
+      "analogPins": [
+       {
+          "name":"A26",
+          "displayName":"A0",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A25",
+          "displayName":"A1",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A34",
+          "displayName":"A2",
+          "direction": "INPUT",
+          "dataType":"int16"
+       },
+       {
+          "name":"A39",
+          "displayName":"A3",
+          "direction": "INPUT",
+          "dataType":"int16"
+       },
+       {
+          "name":"A36",
+          "displayName":"A4",
+          "direction": "INPUT",
+          "dataType":"int16"
+       },
+       {
+          "name":"A4",
+          "displayName":"A5",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A14",
+          "displayName":"A6",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A32",
+          "displayName":"A7",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A15",
+          "displayName":"A8",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A33",
+          "displayName":"A9",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A27",
+          "displayName":"A10",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A12",
+          "displayName":"A11",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A13",
+          "displayName":"A12",
+          "dataType":"int16",
+          "hasPWM":true,
+          "hasServo":true
+       },
+       {
+          "name":"A35",
+          "displayName":"A13 (VBAT)",
+          "dataType":"int16"
+       }
+      ],
+      "i2cPorts": [
+        {
+            "i2cPortId": 0,
+            "SDA": 23,
+            "SCL": 22
+        }
+      ]
+    }
+}
