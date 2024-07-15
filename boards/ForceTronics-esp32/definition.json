@@ -17,7 +17,7 @@
       "flashFreq" : "80m",
       "flashSize" : "4MB",
       "structure": {
-          "0x0": "wippersnapper.wippersnapper_feather_esp32.littlefs.VERSION.combined.bin"
+          "0x0": "wippersnapper.wippersnapper_ForceTronics_esp32.littlefs.VERSION.combined.bin"
         }
     },
     "components": {
